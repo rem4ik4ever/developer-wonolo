@@ -2,28 +2,15 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import classNames from 'classnames';
+import MetaTags from '../components/MetaTags';
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Developer | Wonolo</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="The Staffing infrastructure for your business"
-        />
-        <meta name="copyright" content="wonolo, inc" />
-        <meta name="url" content="https://developer.wonolo.com" />
-        <meta name="og:title" content="Wonolo Developer Center" />
-        <meta name="og:type" content="Website" />
-        <meta name="og:url" content="https://developer.wonolo.com" />
-        <meta name="og:site_name" content="Wonolo" />
-        <meta
-          name="og:description"
-          content="The Staffing infrastructure for your business"
-        />
+        <link rel="icon" type="image/x-icon" href="favicon.ico?v=2"  />
+        <MetaTags />
       </Head>
       <header className="w-full flex justify-start p-8">
         <Image
@@ -55,7 +42,7 @@ export default function Home() {
             'h-3/5'
           )}
         />
-        <section role="hero" className={styles.container}>
+        <section className={styles.container}>
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
             <span className="block xl:inline">
               The Staffing infrastructure for
