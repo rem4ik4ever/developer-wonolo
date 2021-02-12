@@ -50,6 +50,7 @@ export default function Home() {
             <span className="block xl:inline">
               The Staffing infrastructure for
             </span>
+            {" "}
             <Typed strings={['your business']} typeSpeed={40} loop={false}>
               <div className="inline text-yellow-400" />
             </Typed>
