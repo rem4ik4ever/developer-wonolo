@@ -9,21 +9,52 @@ export default function Home() {
       <Head>
         <title>Developer | Wonolo</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="The Staffing infrastructure for your business"
+        />
+        <meta name="copyright" content="wonolo, inc" />
+        <meta name="url" content="https://developer.wonolo.com" />
+        <meta name="og:title" content="Wonolo Developer Center" />
+        <meta name="og:type" content="Website" />
+        <meta name="og:url" content="https://developer.wonolo.com" />
+        <meta name="og:site_name" content="Wonolo" />
+        <meta
+          name="og:description"
+          content="The Staffing infrastructure for your business"
+        />
       </Head>
       <header className="w-full flex justify-start p-8">
-          <Image
-            src="/wonolo-logo-original.svg"
-            height={23}
-            width={100}
-            alt="Wonolo Tech"
-            priority
-          />
-          <span className="inline ml-2 text-2xl">Developer Center</span>
-          <span />
+        <Image
+          src="/wonolo-logo-original.svg"
+          height={23}
+          width={100}
+          alt="Wonolo Tech"
+          priority
+        />
+        <span className="inline ml-2 text-2xl">Developer Center</span>
+        <span />
       </header>
       <main>
-      <div className={classNames(styles.patternbottom, 'w-full', 'sm:w-1/3')} />
-      <div className={classNames(styles.patterntop, 'hidden', 'md:block', 'sm:w-1/3')} />
+        <div
+          className={classNames(
+            styles.patternbottom,
+            'w-full',
+            'sm:w-1/4',
+            'h-1/4',
+            'sm:h-3/5'
+          )}
+        />
+        <div
+          className={classNames(
+            styles.patterntop,
+            'hidden',
+            'md:block',
+            'sm:w-1/4',
+            'h-3/5'
+          )}
+        />
         <section role="hero" className={styles.container}>
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
             <span className="block xl:inline">
