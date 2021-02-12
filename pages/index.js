@@ -20,7 +20,7 @@ export default function Home() {
           alt="Wonolo Tech"
           priority
         />
-        <span className="inline ml-2 text-2xl">Developer Center</span>
+        <span className="inline ml-2 text-2xl" style={{marginTop: '3px'}}>Developer Center</span>
         <span />
       </header>
       <main>
@@ -57,7 +57,7 @@ export default function Home() {
           </p>
           <div class="rounded-md shadow mt-16">
             <a
-              href="mailto:requestapiaccess+noreply@wonolo.com"
+              href="mailto:requestapiaccess@wonolo.com"
               class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
             >
               Request Access
