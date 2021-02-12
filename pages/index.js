@@ -21,7 +21,7 @@ export default function Home() {
           alt="Wonolo Tech"
           priority
         />
-        <span className="inline ml-2 text-2xl" style={{ marginTop: '3px' }}>
+        <span className="inline ml-2 text-2xl" style={{ marginTop: '4px' }}>
           Developer Center
         </span>
         <span />
